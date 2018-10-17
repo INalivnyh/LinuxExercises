@@ -5,6 +5,50 @@ Download Linux Mint 19 Tara
 https://www.linuxmint.com/download.php
 
 https://indilib.org/
+https://indilib.org/download/ubuntu.html
+
+
+Ubuntu 
+Stable Release
+
+INDI Library is available for Ubuntu 16.04 and higher. 
+To install stable INDI Library, run the following commands:
+
+	sudo apt-add-repository ppa:mutlaqja/ppa
+	sudo apt-get update
+
+After update is complete, you can install INDI and optionally Ekos:
+
+To Install INDI Library including all 3rd party drivers:
+
+	sudo apt-get install indi-full
+
+
+To install latest Ekos:
+
+sudo apt-get install indi-full kstars-bleeding
+
+To Install only INDI Library with basic drivers:
+
+	sudo apt-get install libindi1 indi-bin
+	
+Ошибка при открытии Kstar
+The file citydb.sqlite could not be found. 
+KStars cannot run properly without this file. 
+KStars searches for this file in following locations:
+
+/home/yourhome/.local/share/kstars
+/usr/share/xfce4/kstars
+/usr/local/share/kstars
+/usr/share/kstars
+
+It appears that your setup is broken.
+
+Лечение:
+sudo apt-get install libqt5sql5-sqlite
+
+
+
 
 
 
