@@ -1,5 +1,8 @@
 Astro Server
 Ноутбук Acer Acpire one
 
+Download Linux Mint 19 Tara
+https://www.linuxmint.com/download.php
+
 
 
