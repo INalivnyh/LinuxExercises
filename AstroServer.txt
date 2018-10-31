@@ -50,6 +50,14 @@ sudo apt-get install libqt5sql5-sqlite
 
 
 
+ Установить программу для просмотра изображений - XnViewMP 0.61 в Ubuntu/Linux Mint 
+ http://compizomania.blogspot.com/2013/08/xnviewmp-061-ubuntulinux-mint.html
+ 
+  cd /tmp && wget http://download.xnview.com/XnViewMP-linux-x64.deb && sudo dpkg -i XnViewMP-linux-x64.deb
+  
+
+
+
 
 
 
